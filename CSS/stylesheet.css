@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+body
+{
+font-family: 'Kalam', cursive;
+	
+}
+
+
+*
+{
+margin:0;
+padding:0;
+}
+html
+{
+	scroll-behavior:smooth;
+}
+/*-------------Own Bootstrap starts here---------------*/
+.w-80{width:80% !important; margin:auto;} .w-85{width:85%; margin:auto;} .w-90{width:90% !important; margin:auto;} .w-95{width:95%; margin:auto;} 
+/*-------------Own Bootstrap Ends here---------------*/
+.logo1
+{
+	width: 60px;
+	height: 60px;
+}
+.navbar
+{
+	z-index:10 !important;
+}
+.navbar-toggler:focus
+{
+  box-shadow:none !important;
+}
+.fa-bars
+{
+  color:white;
+}
+.fa-bars:hover
+{
+  color:rgb(255, 193, 7);
+}
+
+nav
+{
+	background-color:rgb(0,0,0,0.6);
+	color:white;
+	
+}
+a.nav-link
+{
+	color:white !important;
+}
+a.nav-link:hover
+{
+	color:rgb(255,193,7)!important;
+}
+.banner-video
+{
+	  position: fixed;
+  top: 0;
+  left: 0;
+  z-index:-1;
+  object-fit:cover;
+	 height:100vh;
+    width:100%;	
+   min-height:500px;
+   max-height:1000px;
+}
+
+.banner
+{
+
+	/* background-image:linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../assets/images/bg/banner1.jpg"); */
+    height:100vh;
+    width:100%;	
+   min-height:500px;
+   max-height:1000px;
+   background-color:rgb(0,0,0,0.5);
+      background-attachment: fixed;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+}
+.navbar
+{
+	position:fixed;
+	top:0;
+	
+}
+
+
+/* About section starts here------------------------------------------*/
+
+.About-sec
+{
+   background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/images/bg/bg-1.jpg");
+    width:100%;	
+   min-height:650px;
+
+      background-attachment: fixed;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+}
+.About-sec li
+{
+	list-style:none;
+}
+
+/* About section starts here------------------------------------------*/
+
+.menu-line
+{
+	width:150px;
+	
+	margin-left:10px;
+	color:white;
+}
+
+.about-video
+{
+	width:50vw;
+	height:40vw;
+	 object-fit:cover;
+    min-height: 200px;
+    min-width: 450px;
+    max-height: 400px;
+    max-width: 550px;
+	margin-top:10px;
+}
+
+.why-sec
+{
+	background-color:#0c0b09;
+}
+
+.box
+{
+	background-color:#1a1814;
+	height:20vw;
+	min-height:200px;
+	max-height:300px;
+	transition:0.3s ease-out;
+	
+}
+.box:hover
+{
+	background-color:rgb(255,193,7,0.6);
+}
+
+/* Menu section starts here------------------------------------------*/
+.Menu-sec
+{
+	background-color:#1a1814;
+}
+
+.menu-content
+{
+	display:flex;
+	justify-content:space-between;
+}
+.menu-ingredients
+{
+	color:#A6A6A6;
+}
+.menu-img {
+    width: 80px;
+    border-radius: 50%;
+    float: left;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+	transition:0.3s;
+}
+.menu-img:hover 
+{
+	transform:scale(1.3);
+    
+}
+/* Menu section Ends here------------------------------------------*/
+
+/* Specials section Starts here------------------------------------------*/
+.specials
+{
+	background-color:rgb(0,0,0);
+}
+.specials .nav-tabs {
+    border: 0;
+}
+.specials .nav-link.active {
+    color: #1a1814;
+    background: #cda45e;
+    border-color: #cda45e;
+}
+.specials .nav-link {
+    border: 0;
+    padding: 12px 15px;
+    transition: 0.3s;
+    color: #fff;
+    border-radius: 0;
+    border-right: 2px solid #cda45e;
+    font-weight: 600;
+    font-size: 15px;
+}
+.details
+{
+	color:#A6A6A6;
+}
+
+/* specials section Ends here------------------------------------------*/
+
+/* Events section Ends here------------------------------------------*/
+
+.Events-sec
+{
+	background-color:#1a1814;
+}
+
+.event-item li
+{
+	color:#A6A6A6;
+	list-style:none;
+	margin:auto 2vw;
+}
+
+/* Events section Ends here------------------------------------------*/
+
+
+/* Chef section Starts here------------------------------------------*/
+
+.chef-sec
+{
+	background-color:#1a1814;
+}
+.chef
+{
+	background-position:center;
+	background-size:cover;
+	height:400px;
+	width:100%;
+	
+}
+#chef-1
+{
+	background-image:url(../assets/images/chef/Saikiran.jpg);
+}
+#chef-2
+{
+	background-image:url(../assets/images/chef/Vamshi.jpg);
+}
+#chef-3
+{
+	background-image:url(../assets/images/chef/Amar.jpg);
+}
+#chef-4
+{
+	background-image:url(../assets/images/chef/shiva.jpg);
+}
+
+.chef-info
+{
+	background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0.8), rgb(0,0,0,0));
+	position:absolute;
+	padding:20px 15px;
+	padding-top:150px;
+	bottom:0;
+	left:0;
+	width:100%;
+	opacity:0;
+	transform:translateY(30px);
+	transition:	0.3s;
+}
+.chef-info:hover
+{
+	transform:translateY(0px);
+	opacity:1;
+}
+/* Chef section Ends here------------------------------------------*/
+
+/* gallery section starts here------------------------------------------*/
+.gallery-sec
+{
+	background-color:rgb(0,0,0);
+}
+.gallery-item
+{
+	overflow:hidden;
+}
+.gallery-item img
+{
+	height:300px;
+	width:100%;
+	object-fit:cover;
+	transition:0.5s;
+}
+.gallery-item img:hover
+{
+	transform:scale(1.08);
+}
+/* gallery section Ends here------------------------------------------*/
+
+
+/* reservation section Starts here------------------------------------------*/
+.reservation-sec
+{
+	background-color:rgb(0,0,0)
+}
+.reservation-sec input , .reservation-sec textarea
+{
+	background-color:transparent;
+	border-radius:0px;
+	border:1px solid rgb(255, 193, 7,0.6);
+	resize:none;
+	
+}
+.reservation-sec input:focus , .reservation-sec textarea:focus
+{
+    border:1px solid rgb(255, 193, 7, 1 );	
+	background-color:transparent;
+	color:white;
+}
+.reservation-sec input::placeholder , .reservation-sec textarea::placeholder, .reservation-sec input::value , .reservation-sec textarea::value
+{
+	color:white;
+	
+}
+/* reservation section Starts here------------------------------------------*/
+
+
+/* Contact section Starts here------------------------------------------*/
+.Contact-sec
+{
+	background-color:#1a1814;
+}
+
+.map iframe
+{
+	width:100%;
+	height:60vh;
+	max-height:500px;
+	
+
+}
+
+.Contact-sec input , .Contact-sec textarea
+{
+	background-color:transparent;
+	border-radius:0px;
+	border:1px solid rgb(255, 193, 7,0.6);
+	resize:none;
+	
+}
+.Contact-sec input:focus , .Contact-sec textarea:focus
+{
+    border:1px solid rgb(255, 193, 7, 1 );	
+	background-color:transparent;
+	color:white;
+}
+.Contact-sec input::placeholder , .Contact-sec textarea::placeholder
+{
+	color:white;
+	
+}
+.info img
+{
+width:25px;
+height:25px;
+transition:0.3s;
+
+}
+.info img:hover
+{
+transform:scale(1.3);
+
+}
+.info p
+{
+font-size: 13px !important;
+color:#A6A6A6;
+}
+
+/* Contact section Ends here------------------------------------------*/
+
+/* Footer section Starts here------------------------------------------*/
+.footer
+{
+	background-color: rgb(0,0,0);
+}
+.footer li
+{
+	list-style: none;
+
+}
+.footer a
+{
+	text-decoration: none;
+	color: white;
+	transition: 0.3s;
+}
+.footer i
+{
+	color:rgb(255, 193, 7);
+	font-size: 10px;
+}
+.footer a:hover
+{
+	color: rgb(255, 193, 7,0.8);
+}
+
+.footer input 
+{
+	background-color: transparent;
+	border: 1px solid rgb(255, 193, 7,0.6);
+}
+.footer input::placeholder
+{
+	color:rgb(255,255,255,0.7);
+	padding-left: 10px;
+	font-size: 14px;
+}
+.copyright-sec input:focus , .Contact-sec textarea:focus
+{
+    border:1px solid rgb(255, 193, 7, 1 );	
+	background-color:transparent;
+	color:white;
+}
+
+.Copyrights-sec
+{
+	background-color: #1a1814;
+}
+.Copyrights-sec p
+{
+  font-size: 14px;
+  padding: 20px;
+}
+.footer-logo
+{
+	width:80px;
+	height: 80px;
+}
+/* Footer section Ends here------------------------------------------*/
+
+
+/* loader section starts here------------------------------------------*/
+
+
+.loader {
+	position: absolute;
+	top: calc(50% - 32px);
+	left: calc(50% - 32px);
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+	perspective: 800px;
+  }
+  
+  .inner {
+	position: absolute;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;  
+  }
+  
+  .inner.one {
+	left: 0%;
+	top: 0%;
+	animation: rotate-one 1s linear infinite;
+	border-bottom: 3px solid #EFEFFA;
+  }
+  
+  .inner.two {
+	right: 0%;
+	top: 0%;
+	animation: rotate-two 1s linear infinite;
+	border-right: 3px solid #EFEFFA;
+  }
+  
+  .inner.three {
+	right: 0%;
+	bottom: 0%;
+	animation: rotate-three 1s linear infinite;
+	border-top: 3px solid #EFEFFA;
+  }
+  
+  @keyframes rotate-one {
+	0% {
+	  transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+	}
+	100% {
+	  transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+	}
+  }
+  
+  @keyframes rotate-two {
+	0% {
+	  transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+	}
+	100% {
+	  transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+	}
+  }
+  
+  @keyframes rotate-three {
+	0% {
+	  transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+	}
+	100% {
+	  transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+	}
+  }
+
+/* loader section Ends here------------------------------------------*/
+
+@media screen and (max-width: 700px) 
+{
+	.logo1
+	{
+		width: 40px;
+		height: 40px;
+	}
+	a.nav-link
+{
+	
+	text-align:center;
+	font-size:18px;
+}
+button.btn-nav 
+{
+	margin:auto;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+}	
